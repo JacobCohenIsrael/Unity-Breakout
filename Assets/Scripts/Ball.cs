@@ -24,9 +24,9 @@ public class Ball : MonoBehaviour {
 			rb.isKinematic = false;
 			rb.AddForce(new Vector3(ballInitialVelocity, ballInitialVelocity, 0));
 		}
-		
-		Vector3 pos = Input.mousePosition;
-		pos.z = transform.position.z - Camera.main.transform.position.z;
-		transform.position = Camera.main.ScreenToWorldPoint(pos);
+//		Cheater Mode!!!		
+//		Vector3 pos = Input.mousePosition;
+//		pos.z = transform.position.z - Camera.main.transform.position.z;
+//		transform.position = Camera.main.ScreenToWorldPoint(pos);
 	}
 }
